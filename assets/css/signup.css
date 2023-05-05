@@ -1,0 +1,260 @@
+.signup {
+  padding: 10rem 1.5rem;
+  background-color: #F2F5FF;
+}
+.signup .form-wrapper {
+  padding: 1rem;
+  overflow: hidden;
+}
+.signup .form-wrapper h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #325cf4;
+  margin-bottom: 1rem;
+}
+.signup .form-wrapper h5 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #000000;
+  margin: 1.5rem 0;
+}
+.signup .form-wrapper .form-group {
+  margin: 2rem 0;
+  position: relative;
+}
+.signup .form-wrapper textarea,
+.signup .form-wrapper input {
+  padding: 1.5rem;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid rgba(50, 92, 244, 0.3);
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: rgba(61, 61, 61, 0.7);
+}
+.signup .form-wrapper textarea {
+  height: auto;
+}
+.signup .form-wrapper .form-group .input-group-prepend .input-group-text {
+  height: 100%;
+  background: #f3f3f3;
+  border: 1px solid rgba(50, 92, 244, 0.3);
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.signup .form-wrapper .form-group .input-group-prepend .input-group-text img {
+  width: 25px;
+  margin-right: 1rem;
+}
+.signup .form-wrapper .form-group .input-group-prepend .input-group-text span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #777777;
+  margin: 0;
+}
+.signup .form-wrapper .form-group button {
+  all: unset;
+  font-size: 3rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-55%);
+  color: #b8b8b8;
+}
+
+.custom-checkBox .custom-check > div {
+  width: 55px;
+  height: 28px;
+  border-radius: 30px;
+  border: 1px solid #325cf4;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-right: 2rem;
+}
+
+.custom-checkBox .custom-check > div:after {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #325cf4;
+  border: 1px solid #325cf4;
+  transition: all 0.4s ease-in-out;
+}
+.custom-checkBox input:checked ~ .custom-check > div {
+  background-color: #325cf4;
+}
+.custom-checkBox input:checked ~ .custom-check > div:after {
+  background-color: #fff;
+  left: calc(100% - 24px);
+}
+
+.form-text p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #3d3d3d;
+  margin: 0;
+}
+.form-text p a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #325cf4;
+  text-decoration: underline;
+}
+
+.form-btn {
+  margin: 3rem 0;
+}
+
+.form-btn button {
+  box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.1);
+  border-radius: 1rem;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #ffffff;
+  padding: 1.3rem;
+  text-transform: uppercase;
+}
+
+.or {
+  margin: 2rem 0;
+  text-align: center;
+}
+.or span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #3d3d3d;
+  padding: 0.5rem 2rem;
+  position: relative;
+}
+.or span:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 100vh;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.or span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  width: 100vh;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.third-party-auth {
+  margin: 3rem 0;
+}
+
+.third-party-auth a.third-party-auth-btn {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid rgba(50, 92, 244, 0.3);
+  border-radius: 10px;
+  margin: 1.5rem 0;
+}
+.third-party-auth a.third-party-auth-btn img {
+  width: 33px;
+}
+.third-party-auth a.third-party-auth-btn span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000000;
+  margin-left: 1.5rem;
+}
+.form-right-content {
+  position: relative;
+  max-height: 700px;
+  z-index: 1;
+}
+
+.form-right-content .circle-shade{
+  /* background-color: red; */
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  z-index: -1;
+}
+.form-right-content > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.form-right-content .form-right-text {
+  padding: 3rem;
+  width: 85%;
+  position: absolute;
+
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 242, 242, 0.13);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(50px);
+
+  border-radius: 10px;
+}
+
+.form-right-content .form-right-text span.label {
+  background: #325cf4;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #ffffff;
+  padding: 1.5rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.form-right-content .form-right-text p {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 3rem;
+  color: #ffffff;
+}
+
+.form-right-content .contact-right-text {
+  /* padding: 2rem 1.5rem; */
+  background-color: #ffffff;
+  box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.1);
+}
+.form-right-content .contact-right-text p {
+  margin: 1rem 0;
+  color: #3d3d3d;
+}
+.form-right-content .contact-right-text > img {
+  width: 100px;
+}
+
+
+@media screen and (max-width: 575px){
+  .form-right-content .contact-right-text > img {
+    width: 50px;
+  }
+  
+}

@@ -1,0 +1,78 @@
+#dorctorBio {
+  margin: 13rem 0;
+  padding: 1.5rem;
+}
+
+#dorctorBio .outer-overlay {
+  position: relative;
+}
+
+#dorctorBio .outer-overlay:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 8rem);
+  height: calc(100% + 8rem);
+  background: #f2f5ff;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+#dorctorBio .doctor-prof .doctor-img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#dorctorBio .doctor-prof .doctor-img img {
+  width: 100%;
+}
+
+#dorctorBio .doctor-prof .doctorBio-text h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: justify;
+  color: #3d3d3d;
+  margin: 1.4rem 0;
+}
+#dorctorBio .doctor-prof .doctorBio-text p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: justify;
+  color: #3d3d3d;
+  margin: 2rem 0;
+}
+#dorctorBio .doctor-prof .doctorBio-text p strong {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: justify;
+  color: #3d3d3d;
+}
+#dorctorBio .doctor-prof .doctorBio-text a.w-btn {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+.doctor-detail-text{
+    margin-top: 16rem;
+    /* margin-bottom: 8rem; */
+}
+.doctor-detail-text p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: justify;
+  color: #3d3d3d;
+}
+
+
+@media screen and (max-width: 767px) {
+    #dorctorBio .doctor-prof .doctor-img {
+        position: relative;
+        transform: translateY(-15%);
+        margin: auto;
+      }
+}

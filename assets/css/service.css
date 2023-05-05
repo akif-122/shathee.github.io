@@ -1,0 +1,274 @@
+#services .section-header {
+  max-width: 970px;
+}
+
+/* 
+==================================
+  JOIN SECTION START
+==================================
+*/
+#join {
+  margin-top: 250px;
+  margin-bottom: 10rem;
+  position: relative;
+}
+
+.join .join-img-wrap {
+  position: absolute;
+  bottom: 0;
+  left: -10px !important;
+  text-align: center;
+}
+
+.join .join-img-wrap .join-img .img-card {
+  position: absolute;
+}
+.join .join-img-wrap .join-img .img-card {
+  left: 55%;
+  width: 180px;
+  top: 70%;
+  transform: translateY(-50%);
+}
+#join .img-line {
+  position: absolute;
+  z-index: 100;
+  /* height: 100%; */
+  width: 550px;
+  left: -10px;
+  transform: rotateY(180deg);
+  top: -5px;
+  z-index: -1;
+}
+/* 
+  ==================================
+    JOIN SECTION END
+  ==================================
+  */
+
+/* 
+  ==================================
+    PRICING SECTION START
+  ==================================
+  */
+#pricing {
+  margin: 7rem 0;
+  padding: 1.5rem;
+}
+#pricing .free {
+  background: #f2f5ff;
+  box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2.5rem;
+  padding-top: 5rem;
+}
+#pricing h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #3d3d3d;
+}
+#pricing span {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #3d3d3d;
+}
+#pricing ul {
+  margin-top: 2rem;
+  list-style: none;
+}
+#pricing ul li {
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #3d3d3d;
+}
+#pricing ul li i {
+  font-size: 1.8rem;
+  color: #325cf4;
+  margin-right: 1.5rem;
+}
+
+#pricing a.plan-btn {
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem 2.4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: -0.233333px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #325cf4;
+  transition: all 0.4s ease-in-out;
+  margin-top: 5rem;
+}
+#pricing a.plan-btn:hover {
+  color: #ffffff;
+  background-color: #325cf4;
+}
+#pricing .installment {
+  position: relative;
+  background: #325cf4;
+  padding: 2.5rem;
+  padding-top: 5rem;
+
+  box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#pricing .installment span.label {
+  background: #113bb3;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.666667px;
+  color: #ffffff;
+  position: absolute;
+  right: 20px;
+}
+#pricing .installment h3 {
+  color: #ffffff;
+}
+#pricing .installment span:not(.label) {
+  color: #fff;
+  opacity: 0.5;
+}
+#pricing .installment ul li {
+  color: #fff;
+  opacity: 0.8;
+}
+#pricing .installment ul li i {
+  color: #fff;
+}
+#pricing .installment ul li:hover {
+  opacity: 1;
+}
+#pricing table thead tr th {
+  border: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #3d3d3d;
+}
+#pricing table tbody tr td {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #3d3d3d;
+  border: none;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+#pricing table tbody tr:nth-child(odd) {
+  background-color: #f2f5ff;
+}
+#pricing table tbody tr td:first-child {
+  border-top-left-radius: 8px;
+  text-align: left;
+  border-bottom-left-radius: 8px;
+  white-space: nowrap;
+}
+#pricing table tbody tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#pricing table tbody tr td i {
+  font-size: 2rem;
+  text-align: center;
+  color: #3d3d3d;
+}
+#pricing table tfoot tr td {
+  border-bottom: 0;
+}
+#pricing table tfoot tr td a.plan-btn {
+  border: 1px solid #325cf4;
+  box-shadow: none;
+  white-space: nowrap;
+}
+
+#pricing table tfoot tr td a.plan-btn.b-dark {
+  color: #fff;
+  background-color: #325cf4;
+}
+.color-blue {
+  color: #325cf4 !important;
+}
+
+/* 
+  ==================================
+    PRICING SECTION END 
+  ==================================
+ */
+
+/* 
+  ==================================
+     PROCESS SECTION START
+  ==================================
+*/
+#process {
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+}
+#process .proccess-content{
+  margin:5rem 0 !important;
+}
+#process .proccess-content .process-img img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+#process .proccess-content .process-text {
+  padding: 1rem;
+}
+#process .proccess-content .process-text h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #3d3d3d;
+  margin-left: 3rem;
+}
+#process .proccess-content .process-text img{
+  width: 100px;
+}
+
+#process .proccess-content .process-text p{
+  font-weight: 400;
+font-size: 2rem;
+text-align: justify;
+color: #3D3D3D;
+margin: 1.5rem 0;
+
+}
+/* 
+  ==================================
+     PROCESS SECTION END
+  ==================================
+*/
+
+@media screen and (max-width: 991px) {
+  #join {
+    margin-top: 80px;
+    margin-bottom: 10rem;
+    position: relative;
+  }
+  .join .join-img-wrap {
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .join .join-img-wrap .join-img .img-card {
+    left: 65%;
+    width: 180px;
+    top: 70%;
+    transform: translate(-30%, -50%);
+  }
+  .join .join-text {
+    padding: 1rem;
+  }
+
+  #pricing .installment span.label {
+    top: 10px;
+  }
+}

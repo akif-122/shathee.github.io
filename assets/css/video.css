@@ -1,0 +1,30 @@
+#video-wrapper{
+    margin: 8rem 1.5rem;
+}
+.vide-header-title h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+#video-wrapper .video video{
+    width: 100%;
+    border-radius: .8rem;
+    box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.video-text{
+    margin: 2rem 0;
+
+}
+
+.video-text h4{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3d3d3d;
+    margin-bottom: 3rem;
+}
+.video-text p{
+    font-size: 1.6rem;
+    color: #3d3d3d;
+    font-weight: 400;
+}

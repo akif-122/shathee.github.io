@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shathee</title>
+
+
+    <!-- FONTAWESOME ICON  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dashboard.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <button id="toggle-sideBar" class="toggle-sideBar"><i class="fa-solid fa-bars"></i></button>
+        <main id="main">
+
+            <aside id="sidebar">
+                <div class="side-logo">
+                    <img src="assets/img/logo.svg" width="80%" alt="">
+                </div>
+
+                <div class="admin-profile d-flex align-items-center">
+                    <img src="assets/img/admin.png" alt="">
+                    <div class="admin-text">
+                        <h4>Mehedi Hassan Roni</h4>
+                        <p>m.h.roni@xyz.com</p>
+                    </div>
+                </div>
+
+                <div class="side-nav">
+                    <ul>
+                        <li><a href="" class="active"><i class="fa-solid fa-table-cells-large "></i> Dashboard</a> </li>
+                        <li><a href=""><i class="fa-solid fa-chart-pie "></i> Reports</a></li>
+                        <li><a href=""><i class="fa-regular fa-bell "></i> Notifications</a></li>
+                        <li><a href=""><i class="fa-solid fa-gear "></i> Settings</a></li>
+                        <li><a href=""><i class="fa-solid fa-arrow-right-from-bracket "></i> Logout</a></li>
+                    </ul>
+                </div>
+
+            </aside>
+
+            <!-- CONTENT -->
+            <section class="dash-content">
+
+                <div class="dash-content-header d-flex justify-content-between align-items-center flex-wrap">
+                    <h3>Welcome back <b>Roni!</b></h3>
+                    <span><i class="fa-regular fa-calendar"></i> Tue, 24 Apr 2023</span>
+
+                </div>
+
+                <div class="dash-weather">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 ">
+                            <div class="d-flex align-items-center flex-wrap pe-4">
+                                <img src="assets/img/sun.png" alt="">
+                                <h5>36 C</h5>
+                                <p>It’s a Sunny Day today!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-4">
+                            <p class="color-grey">Don’t forget to take your water bottle with you.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- LATEST OVERVIEW -->
+                <div class="latest-overview">
+                    <h4>Latest Overview</h4>
+
+                    <div class="row mt-5">
+
+                        <div class="col-md-4">
+                            <div class="overview-box overview-success">
+                                <div class="circle"></div>
+                                <div class="overview-text">
+                                    <p>BP</p>
+                                    <h5>120/80 mm Hg</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="overview-box overview-danger">
+                                <div class="circle"></div>
+                                <div class="overview-text">
+                                    <p>BP</p>
+                                    <h5>120/80 mm Hg</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="overview-box overview-warning">
+                                <div class="circle"></div>
+                                <div class="overview-text">
+                                    <p>BP</p>
+                                    <h5>120/80 mm Hg</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- user overview card -->
+                <div class="u-overview-cards">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="u-overview-card">
+                                <div class="u-card-header">
+                                    <img src="assets/img/heart.png" alt="">
+                                    <div class="header-text">
+                                        <h3>Blood Pressure</h3>
+                                        <p class="text-green">Controlled</p>
+                                    </div>
+                                </div>
+
+                                <div class="bars-wrap">
+
+                                    <div class="bar">
+                                        <span>Week 4</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 70%;">
+                                                <p>Controlled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 3</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-yellow" style="width: 80%;">
+                                                <p>Not very well controlled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 2</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 70%;">
+                                                <p>Controlled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 1</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-red" style="width: 50%;">
+                                                <p>Uncontrolled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span></span>
+                                        <div
+                                            class="bar-bottom-value w-100  d-flex align-items-center justify-content-between">
+                                            <span>60</span>
+                                            <span>80</span>
+                                            <span>100</span>
+                                            <span>120</span>
+                                            <span>140</span>
+                                            <span>160</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="u-overview-card">
+                                <div class="u-card-header">
+                                    <img src="assets/img/daibets.png" alt="">
+                                    <div class="header-text">
+                                        <h3>Diabetes</h3>
+                                        <p class="text-yellow">Controlled</p>
+                                    </div>
+                                </div>
+
+                                <div class="bars-wrap">
+
+                                    <div class="bar">
+                                        <span>Week 4</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-yellow" style="width: 70%;">
+                                                <p>Not very well controlled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 3</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-red" style="width: 80%;">
+                                                <p>Uncontrolled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 2</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 72%;">
+                                                <p>Controlled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 1</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 40%;">
+                                                <p>Controlled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span></span>
+                                        <div
+                                            class="bar-bottom-value w-100  d-flex align-items-center justify-content-between">
+                                            <span>60</span>
+                                            <span>80</span>
+                                            <span>100</span>
+                                            <span>120</span>
+                                            <span>140</span>
+                                            <span>160</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="u-overview-card">
+                                <div class="u-card-header">
+                                    <img src="assets/img/weight.png" alt="">
+                                    <div class="header-text">
+                                        <h3>Body Weight</h3>
+                                        <p class="text-green">Controlled</p>
+                                    </div>
+                                </div>
+
+                                <div class="bars-wrap">
+
+                                    <div class="bar">
+                                        <span>Week 4</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 70%;">
+                                                <p>Normal</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 3</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-yellow" style="width: 80%;">
+                                                <p>Overweight</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 2</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 70%;">
+                                                <p>Normal</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 1</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-red" style="width: 40%;">
+                                                <p>Obesity</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span></span>
+                                        <div
+                                            class="bar-bottom-value w-100  d-flex align-items-center justify-content-between">
+                                            <span>20</span>
+                                            <span>40</span>
+                                            <span>60</span>
+                                            <span>80</span>
+                                            <span>100</span>
+                                            <span>120</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="u-overview-card">
+                                <div class="u-card-header">
+                                    <img src="assets/img/health.png" alt="">
+                                    <div class="header-text">
+                                        <h3>Physical Health</h3>
+                                        <p class="text-green">Very Well</p>
+                                    </div>
+                                </div>
+
+                                <div class="bars-wrap">
+
+                                    <div class="bar">
+                                        <span>Week 4</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 70%;">
+                                                <p>Very well</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 3</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-yellow" style="width: 80%;">
+                                                <p>Fairly Good</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 2</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 72%;">
+                                                <p>Very well</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 1</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-red" style="width: 40%;">
+                                                <p>Very Bad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span></span>
+                                        <div
+                                            class="bar-bottom-value w-100  d-flex align-items-center justify-content-between">
+
+                                            <span>60</span>
+                                            <span>80</span>
+                                            <span>100</span>
+                                            <span>120</span>
+                                            <span>140</span>
+                                            <span>160</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="u-overview-card">
+                                <div class="u-card-header">
+                                    <img src="assets/img/mental.png" alt="">
+                                    <div class="header-text">
+                                        <h3>Mental Health</h3>
+                                        <p class="text-red">Very bad</p>
+                                    </div>
+                                </div>
+
+                                <div class="bars-wrap">
+
+                                    <div class="bar">
+                                        <span>Week 4</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-red" style="width: 50%;">
+                                                <p>Very Bad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 3</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-yellow" style="width: 70%;">
+                                                <p>Fairly Bad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 2</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-yellow" style="width: 60%;">
+                                                <p>Not good</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span>Week 1</span>
+                                        <div class="bar-outer">
+                                            <div class="bar-inner bg-green" style="width: 80%;">
+                                                <p>Very well</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bar">
+                                        <span></span>
+                                        <div
+                                            class="bar-bottom-value w-100  d-flex align-items-center justify-content-between">
+
+                                            <span>60</span>
+                                            <span>80</span>
+                                            <span>100</span>
+                                            <span>120</span>
+                                            <span>140</span>
+                                            <span>160</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- our sceince -->
+                <div class="our-science">
+                    <div class="science-header d-flex justify-content-between flex-wrap">
+                        <div>
+                            <h4>Our Science</h4>
+                            <p>Check our blogs regularly</p>
+                        </div>
+                        <a href="">See All</a>
+                    </div>
+
+                    <div class="row g-5">
+
+                        <div class=" col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <img src="assets/img/scirnce.png" width="100%" alt="">
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5>set video playback speed
+                                            with javascript</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <img src="assets/img/scirnce.png" width="100%" alt="">
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5>set video playback speed
+                                            with javascript</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-6 col-lg-4">
+                            <div class="card border-0">
+                                <img src="assets/img/scirnce.png" width="100%" alt="">
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5>set video playback speed
+                                            with javascript</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        const main = document.getElementById("main");
+        const sideBar = document.getElementById("sidebar");
+        const toggleSideBarBtn = document.getElementById("toggle-sideBar");
+
+        toggleSideBarBtn.addEventListener('click', (e) => {
+            main.classList.toggle("active");
+            if (main.className === "") {
+                toggleSideBarBtn.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+            } else {
+
+                toggleSideBarBtn.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+            }
+
+            e.stopPropagation();
+        })
+
+        sideBar.addEventListener("click", (e)=>{
+            main.classList.add("active");
+            e.stopPropagation();
+        })
+
+        document.addEventListener("click", (e) => {
+
+            main.classList.remove("active")
+
+
+            if (main.className === "") {
+                toggleSideBarBtn.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+            } else {
+
+                toggleSideBarBtn.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+            }
+
+            e.stopPropagation()
+
+        })
+    </script>
+
+</body>
+
+</html>

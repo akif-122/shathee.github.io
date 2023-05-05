@@ -1,0 +1,231 @@
+#about {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  padding: 1rem 1.5rem;
+}
+#about p:not(.section-header > p) {
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: justify;
+  color: #3d3d3d;
+  margin: 3rem 0;
+}
+#about .about-content {
+  margin-bottom: 10rem;
+}
+#about .about-content .about--header {
+  position: relative;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
+}
+#about .about-content .about--header > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#about .about-content .about--header .about--header-content h3 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+#about .about-content .about--header .about--header-content h3 span {
+  font-weight: 400;
+  font-size: 2.8rem;
+
+  color: #ffffff;
+}
+
+/* 
+======================================
+    OUR VALUES SECTION START
+======================================
+*/
+#our-values {
+  margin: 10rem 0;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+
+.value-bg{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#our-values .value-cards {
+  margin-top: 5rem;
+}
+#our-values .value-cards .value-card {
+  padding: 1.5rem;
+  background: linear-gradient(
+      317.7deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 105.18%
+    ),
+    #ffffff;
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(50, 92, 244, 0.3);
+  box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  align-self: stretch;
+  transition: all 0.3s ease-in-out;
+}
+#our-values .value-cards .value-card:hover {
+  transform: translateY(-10px);
+}
+#our-values .value-cards .value-card .value-card-icon {
+  margin: 1.5rem 0;
+}
+
+#our-values .value-cards .value-card .value-card-icon img {
+  width: 35px;
+}
+#our-values .value-cards .value-card h5 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 1.5rem 0;
+  margin-top: 2.5rem;
+  color: #3d3d3d;
+}
+#our-values .value-cards .value-card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #3d3d3d;
+  margin: 1.5rem 0;
+}
+/* 
+======================================
+    OUR VALUES SECTION END
+======================================
+*/
+
+/* 
+======================================
+    OUR DOCTORS SECTION START
+======================================
+*/
+#our-doctors {
+  margin: 8rem 0;
+  padding: 1.5rem;
+}
+.bg-overlay {
+  position: relative;
+}
+.bg-overlay:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 8rem);
+  height: calc(100% + 10rem);
+  background: #f2f5ff;
+  border-radius: 10px;
+  z-index: -1;
+}
+#our-doctors .our-doc-cards .doc-card {
+  background: linear-gradient(
+      317.7deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 105.18%
+    ),
+    #ffffff;
+  background-blend-mode: soft-light, normal;
+  box-shadow: 0px 15px 30px 10px rgba(50, 92, 244, 0.1);
+  border-radius: 10px;
+  padding: 1.5rem 2.5rem;
+  transition: all 0.3s ease-in-out;
+}
+#our-doctors .our-doc-cards .doc-card:hover {
+  transform: scale(1.05);
+}
+#our-doctors .our-doc-cards .doc-card .doc-profile {
+  margin-bottom: 2rem;
+}
+#our-doctors .our-doc-cards .doc-card .doc-profile > img {
+  width: 70px;
+  height: 70%;
+  object-fit: cover;
+}
+#our-doctors .our-doc-cards .doc-card .doc-profile .doc-detail {
+  padding-left: 1.5rem;
+}
+
+#our-doctors .our-doc-cards .doc-card .doc-profile .doc-detail h5 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #3d3d3d;
+  margin: 0;
+}
+#our-doctors .our-doc-cards .doc-card .doc-profile .doc-detail span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #808080;
+}
+#our-doctors .our-doc-cards .doc-card p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: justify;
+  color: #3d3d3d;
+}
+/* 
+======================================
+    OUR DOCTORS SECTION END
+======================================
+*/
+
+/* 
+======================================
+    TEAM SECTION START
+======================================
+*/
+.team {
+  margin: 10rem 0;
+  padding: 1.5rem;
+}
+
+.team .card {
+  background: #ffffff;
+  border: 1px solid rgba(50, 92, 244, 0.3);
+  border-radius: .7rem;
+  transition: 0.3s ease-in-out;
+}
+.team .card:hover{
+  transform: translateY(-10px);
+}
+
+.team .card h5 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #3d3d3d;
+}
+
+.team .card span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #325cf4;
+}
+.team .card p {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #5f6980;
+  margin-top: 1rem ;
+}
+/* 
+======================================
+    TEAM SECTION END
+======================================
+*/

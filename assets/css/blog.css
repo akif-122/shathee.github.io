@@ -1,0 +1,187 @@
+.blog.recent-post .section-header h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #3d3d3d;
+}
+
+.blog.recent-post .main-post {
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+  box-shadow: none;
+}
+
+.blog.recent-post .recent-sidebar {
+  padding-top: 2rem;
+}
+.blog.recent-post .recent-sidebar .ad {
+  background: #0c163a;
+  mix-blend-mode: multiply;
+  color: #fff;
+  position: relative;
+  padding: 5rem 1.5rem;
+}
+.blog.recent-post .recent-sidebar .ad span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+.blog.recent-post .recent-sidebar .ad h4 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
+.blog.recent-post .recent-sidebar .ad p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin: 1.5rem 0;
+}
+.blog.recent-post .recent-sidebar .ad a {
+  background: #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #325cf4;
+  padding: 1rem 2rem;
+}
+
+h4.side-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #3d3d3d;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+.side-category {
+  margin-top: 8rem;
+}
+.side-category ul {
+  padding-left: 0;
+}
+.side-category ul li {
+  border-bottom: 1px dashed rgba(50, 92, 244, 0.3);
+}
+.side-category ul li:last-child {
+  border: none;
+}
+.side-category ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #3d3d3d;
+}
+.side-category ul li a span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #3d3d3d;
+}
+
+.side-boxes {
+  margin-top: 6rem;
+}
+
+.side-boxes .side-box {
+  background: #f2f5ff;
+  border-radius: 0.8rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  align-self: stretch;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-boxes .side-box h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #325cf4;
+}
+
+.side-boxes .side-box p {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #3d3d3d;
+  margin-bottom: 0;
+}
+.search-tags {
+  margin-top: 6rem;
+}
+.search-tags ul {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-tags ul li {
+  margin: 1.5rem;
+  margin-left: 0;
+}
+
+.search-tags ul li a {
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #3d3d3d;
+  transition: all 0.4s ease-in-out;
+}
+
+.search-tags ul li a:is(.active, :hover) {
+  color: #fff;
+  background-color: #325cf4;
+  border-color: #325cf4;
+}
+
+.blog-pagination {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.blog-pagination ul li {
+  margin: 0.8rem;
+}
+
+.blog-pagination ul li a {
+  border: 1px solid #3d3d3d;
+  border-radius: 5px !important;
+  padding: .5rem 1.5rem;
+  font-size: 1.5rem;
+  color: #3d3d3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-pagination ul li a i{
+  font-size: 1.5rem;
+  margin: 0 .5rem;
+}
+.blog-pagination ul li a:hover{
+  border-color: #325cf4;
+}
+.blog-pagination ul li a.active{
+  color: #fff;
+  background-color: #325cf4;
+}
