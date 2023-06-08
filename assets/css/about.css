@@ -16,6 +16,7 @@
 #about .about-content .about--header {
   position: relative;
   border-radius: 0.8rem;
+  min-height: 300px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -60,6 +61,7 @@
   width: 100%;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 #our-values .value-cards {
@@ -89,7 +91,9 @@
 }
 
 #our-values .value-cards .value-card .value-card-icon img {
-  width: 35px;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 #our-values .value-cards .value-card h5 {
   font-weight: 700;
@@ -148,6 +152,7 @@
   border-radius: 10px;
   padding: 1.5rem 2.5rem;
   transition: all 0.3s ease-in-out;
+  margin: .25rem 0;
 }
 #our-doctors .our-doc-cards .doc-card:hover {
   transform: scale(1.05);

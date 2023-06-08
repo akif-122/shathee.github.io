@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shathee</title>
+
+    <!-- AOS ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- FONTAWESOME ICON  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/signup.css" />
+    <link rel="stylesheet" href="assets/css/patient.css" />
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- NAVBAR SECTION START -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="navBar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/logo.svg" width="200" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-bs-target="#myNav" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li><a class="nav-link " href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="about.html">who we are</a></li>
+                        <li><a class="nav-link" href="service.html">what we do</a></li>
+                        <li><a class="nav-link" href="our-science.html">our science</a></li>
+                        <li><a class="nav-link w-btn" href="login.html">Login</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- NAVBAR SECTION END -->
+
+
+
+        <!-- SINGUP FORM SECTION START -->
+        <section class="signup">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 mb-5">
+                        <div class="form-wrapper">
+                            <div class="" data-aos="zoom-in">
+                                <h2>Welcome to Shathee</h2>
+                                <h5>Your partner in preventive healthcare</h5>
+                            </div>
+                            <form action="" class="mt-5" data-aos="zoom-in">
+
+                                <div class="patient mb-5">
+                                    <p>Registration For</p>
+                                    <div class="d-flex align-items-center circle-radio  mb-3">
+                                        <input type="radio" id="mySelf" name="for">
+                                        <label for="mySelf">My Self</label>
+                                    </div>
+                                    <div class="d-flex align-items-center circle-radio">
+                                        <input type="radio" id="forSomeoneElse" name="for">
+                                        <label for="forSomeoneElse">Someone Else:</label>
+                                    </div>
+
+                                </div>
+
+                                <!-- REALATIONSHIP -->
+                                <div class="relation d-none mt-5">
+
+                                    <p>If someone else, choose relationship
+                                    </p>
+
+                                    <div class="relation-ship  circle-radio ">
+                                        <input type="radio" name="relation" id="father">
+                                        <label for="father">Father</label>
+                                    </div>
+
+                                    <div class="relation-ship  circle-radio">
+                                        <input type="radio" name="relation" id="mother">
+                                        <label for="mother">Mother</label>
+                                    </div>
+
+                                    <div class="relation-ship  circle-radio">
+                                        <input type="radio" name="relation" id="sibling">
+                                        <label for="sibling">Sibling/Cousin</label>
+                                    </div>
+
+                                    <div class="relation-ship  circle-radio">
+                                        <input type="radio" name="relation" id="someoneElse">
+                                        <label for="someoneElse">Someone Else</label>
+                                    </div>
+
+
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+
+                                    <div class="form-group input-group">
+                                        <div class="input-group-prepend ">
+                                            <div class="input-group-text d-flex align-items-center">
+                                                <img src="assets/img/bng.PNG" alt=""> <span>+880</span>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroup"
+                                            placeholder="Mobile Number">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+
+                                    <div class="form-group input-pass-wrap">
+                                        <input type="password" class="form-control"
+                                            placeholder="Set up your password (Minimum 8 characters)">
+                                        <button class="pass-hide-show"><i class="fa-regular fa-eye-slash"></i></button>
+                                    </div>
+
+                                    <div class="form-group input-pass-wrap">
+                                        <input type="password" class="form-control" placeholder="Repeat Password">
+                                        <!-- hide show btn should be next element of input type passowrd Otherwise it will not work -->
+                                        <button class="pass-hide-show"><i class="fa-regular fa-eye-slash"></i></button>
+                                    </div>
+
+
+
+
+                                </div>
+
+
+                                <div>
+                                    <p>Sex</p>
+
+                                    <div class="">
+                                        <div class="sex-check circle-radio">
+                                            <input type="radio" id="male" name="sex">
+                                            <label for="male">Male</label>
+                                        </div>
+
+                                        <div class="sex-check circle-radio">
+                                            <input type="radio" id="female" name="sex">
+                                            <label for="female">Female</label>
+                                        </div>
+
+                                        <div class="sex-check circle-radio">
+                                            <input type="radio" id="not-to-say" name="sex">
+                                            <label for="not-to-say">Prefer not to say</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" form-group mt-4">
+
+
+
+                                    <div class="mt-5">
+                                        <p>Please select your goal(s) that we can help you achieve</p>
+                                        <div class="goal">
+                                            <div class="goal-check">
+                                                <input type="checkbox" name="" id="sugar">
+                                                <label for="sugar">I want to lower my blood sugar</label>
+                                            </div>
+
+                                            <div class="goal-check">
+                                                <input type="checkbox" name="" id="pressure">
+                                                <label for="pressure">I want to lower my blood pressure</label>
+                                            </div>
+
+                                            <div class="goal-check">
+                                                <input type="checkbox" name="" id="diet">
+                                                <label for="diet">I want to have a healthy diet</label>
+                                            </div>
+
+                                            <div class="goal-check">
+                                                <input type="checkbox" name="" id="sleep">
+                                                <label for="sleep">I want to sleep better</label>
+                                            </div>
+
+                                            <div class="goal-check">
+                                                <input type="checkbox" name="" id="all">
+                                                <label for="all">All of the Above</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="mb-2">Date Of Birth</p>
+                                    <input type="date" class="form-control" placeholder="National ID">
+                                </div>
+
+
+                                <div class="">
+                                    <p class="mb-0">Height</p>
+                                    <div class="row mb-3">
+                                        <div class="col-md-4 form-group my-2">
+                                            <input type="text" placeholder="Feet" class="form-control">
+                                        </div>
+
+                                        <div class="col-md-4 form-group my-2">
+                                            <input type="text" placeholder="Inch" class="form-control">
+                                        </div>
+
+                                        <div class="col-md-1 form-group align-self-center my-0">
+                                            <p class="or">OR</p>
+                                        </div>
+
+                                        <div class="col-md-3 form-group my-2">
+                                            <input type="text" placeholder="CM" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="">
+                                    <div class="row ">
+                                        <p class="mb-0">Weight</p>
+                                        <div class="col-sm-5 form-group my-2">
+                                            <input type="text" placeholder="KG" class="form-control">
+                                        </div>
+
+                                        <div class="col-md-2 align-self-center my-0">
+                                            <p class="or">OR</p>
+                                        </div>
+
+                                        <div class="col-sm-5 form-group my-2">
+                                            <input type="text" placeholder="Pound" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="National ID">
+                                </div>
+
+                                <div class="mt-4">
+                                    <p class="mb-3">History of known illness (chronic)</p>
+                                    <div class="form-check-inline circle-radio ">
+                                        <input type="radio" name="known" id="Diabetes">
+                                        <label for="Diabetes" class="pt-1 pt-lg-0"> Diabetes </label>
+                                    </div>
+
+                                    <div class="form-check-inline circle-radio ">
+                                        <input type="radio" name="known" id="blood">
+                                        <label for="blood" class="pt-1 pt-lg-0"> High blood pressure
+                                        </label>
+                                    </div>
+
+                                </div>
+
+                                <div class="">
+                                    <div class="form-group">
+                                        <p class="mb-2">Prefred time for regular appoinment</p>
+                                        <select name="" id="day-select" class="form-select">
+                                            <option value="">Select</option>
+                                            <option value="">Saturday</option>
+                                            <option value="">Sunday</option>
+                                            <option value="">Monday</option>
+                                            <option value="">Tuesday</option>
+                                            <option value="">Wednesday</option>
+                                            <option value="">Thursday</option>
+                                            <option value="">Friday</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+
+                                <div class="appoinment-timing d-none my-4">
+                                    <div class="row">
+
+                                        <div class=" col-sm-6 col-lg-4 label-heading label-heading">
+                                            <div class="appoint-time">
+                                                <input type="radio" name="app-time" id="9-11">
+                                                <label for="9-11">
+                                                    <p>9 AM to 11 AM</p>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-sm-6 col-lg-4 label-heading label-heading">
+                                            <div class="appoint-time">
+                                                <input type="radio" name="app-time" id="11-01">
+                                                <label for="11-01">
+                                                    <p>11 AM to 01 PM</p>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-sm-6 col-lg-4 label-heading label-heading">
+                                            <div class="appoint-time">
+                                                <input type="radio" name="app-time" id="03-05">
+                                                <label for="03-05">
+                                                    <p>02 PM to 05 PM</p>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-sm-6 col-lg-4 label-heading label-heading">
+                                            <div class="appoint-time">
+                                                <input type="radio" name="app-time" id="05-07">
+                                                <label for="05-07">
+                                                    <p>05 PM to 07 PM</p>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-sm-6 col-lg-4 label-heading label-heading">
+                                            <div class="appoint-time">
+                                                <input type="radio" name="app-time" id="07-09">
+                                                <label for="07-09">
+                                                    <p>07 PM to 09 PM</p>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-sm-6 col-lg-4 label-heading label-heading">
+                                            <div class="appoint-time">
+                                                <input type="radio" name="app-time" id="09-11">
+                                                <label for="09-11">
+                                                    <p>09 PM to 11 PM</p>
+                                                </label>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <div class="d-flex align-items-center custom-checkBox my-5">
+                                    <input type="checkbox" id="r-privacy" class="d-none">
+                                    <label for="r-privacy" class="custom-check">
+                                        <div></div>
+                                    </label>
+
+                                    <div class="form-text">
+                                        <label for="r-privacy">
+                                            <p>I hereby agree to Shathee’s <a class="ml-2" href="">Terms &
+                                                    Conditions</a></p>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-btn">
+                                    <button class="w-btn w-100">Submit</button>
+                                </div>
+
+                                <div class="form-text text-center">
+                                    <label>
+                                        <p>Already a member? <a class="ml-2" href="login.html">Login</a></p>
+                                    </label>
+                                </div>
+
+                                <!-- <div class="or">
+                                    <span>Or continue with</span>
+                                </div>
+
+
+                                <div class="third-party-auth ">
+                                    <a href="" class="third-party-auth-btn">
+                                        <img src="assets/img/google.png" alt="">
+                                        <span>Login with Google</span>
+                                    </a>
+                                    <a href="" class="third-party-auth-btn">
+                                        <img src="assets/img/facebook.png" alt="">
+                                        <span>Login with Facebook</span>
+                                    </a>
+                                </div> -->
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-5 ms-auto px-4 form-right-content" data-aos="zoom-in">
+                        <img class="circle-shade" src="assets/img/circle-shade.png" alt="">
+
+
+
+                        <img class="sign-up" src="assets/img/singup-right.png" width="100%" alt="">
+
+                        <div class="form-right-text">
+                            <span class="label"><img src="assets/img/thumbs.png" class="me-2" alt=""> Enables Proactive
+                                Care </span>
+                            <p>Proactive care empowers me to make a real difference in my patients' lives, helping them
+                                avoid complications and enjoy a better quality of life.</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- SINGUP FORM SECTION END -->
+
+
+
+
+
+        <!-- FOOTER SECTION START -->
+        <footer id="footer">
+            <img class="ft-bg-img " src="assets/img/ft-line.png" alt="">
+            <div class="container ft-con">
+                <div class="row px-3 px-sm-0">
+
+                    <div class=" col-sm-6  col-lg-4 mb-5  ft-about" data-aos="zoom-in">
+                        <img src="assets/img/logo-w.png" width="80%" alt="">
+                        <p>Evidence based high quality preventive care accessible to everyone on Earth, starting with
+                            Bangladesh.</p>
+                        <ul class="d-flex ps-0">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class=" col-sm-6  col-lg-3 mb-5  ps-sm-5 ft-detail" data-aos="zoom-in">
+                        <h4>Get in touch</h4>
+                        <p>14/05 City, <br>
+                            Dhaka, Bangladesh<br>
+                            Email: shathee@xyz.com<br>
+                            Phone: 00 (123) 456 78 90<br></p>
+                    </div>
+
+                    <div class=" col-sm-6  col-lg-2 mb-5  ft-detail" data-aos="zoom-in">
+                        <h4>Quick Links</h4>
+                        <ul class="navbar-nav">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class=" col-sm-6  col-lg-3 mb-5  align-self-center ft-sub p-sm-0" data-aos="zoom-in">
+                        <form>
+                            <div class="form-group position-relative">
+                                <i class="fa fa-envelope"></i>
+                                <input type="text" class="form-control" placeholder="Enter your email address here">
+                            </div>
+                            <button type="submit" id="newsLaterBtn" class=" w-100">SUBSCRIBE</button>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER SECTION END -->
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- JQUERY JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- AOS ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        AOS.init({
+
+
+            offset: 50,
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+
+        });
+
+        let newsLaterBtn = document.querySelector("#newsLaterBtn");
+        newsLaterBtn.addEventListener("click", (e) => {
+            e.preventDefault()
+        })
+
+        // hide show
+        let passHideShowBtn = document.querySelectorAll(".pass-hide-show");
+
+        passHideShowBtn.forEach(btn => {
+            let isShow = false;
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+                if (!isShow) {
+                    btn.innerHTML = `<i class="fa-regular fa-eye"></i>`;
+                    btn.previousElementSibling.type = "text";
+                    isShow = true;
+
+                } else {
+                    btn.innerHTML = `<i class="fa-regular fa-eye-slash"></i>`;
+                    btn.previousElementSibling.type = "password";
+                    isShow = false;
+
+                }
+            })
+        })
+
+
+
+
+        // APPOINTMENT TIME
+        let daySelect = document.querySelector("#day-select");
+        let appoinmentTiming = document.querySelector(".appoinment-timing");
+
+        daySelect.addEventListener("change", () => {
+            appoinmentTiming.classList.remove("d-none")
+        })
+
+        // PATIENT RELATIVES
+        let mySelf = document.querySelector("#mySelf");
+        let forSomeoneElse = document.querySelector("#forSomeoneElse");
+        let relation = document.querySelector(".relation")
+        forSomeoneElse.addEventListener("change", () => {
+            if (forSomeoneElse.checked) {
+                relation.classList.remove("d-none")
+            }
+        })
+
+        mySelf.addEventListener("change", () => {
+            if (mySelf.checked) {
+                relation.classList.add("d-none")
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>

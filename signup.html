@@ -7,14 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shathee</title>
 
-    <!-- OWL CAROUSEL  -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-
-    <!-- AOS ANIMATION CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
     <!-- FONTAWESOME ICON  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -45,8 +39,8 @@
                     <ul class="navbar-nav ms-auto">
                         <li><a class="nav-link " href="index.html">Home</a></li>
                         <li><a class="nav-link" href="about.html">who we are</a></li>
-                        <li><a class="nav-link" href="blog.html">what do we do</a></li>
-                        <li><a class="nav-link" href="service.html">our science</a></li>
+                        <li><a class="nav-link" href="service.html">what we do</a></li>
+                        <li><a class="nav-link" href="our-science.html">our science</a></li>
                         <li><a class="nav-link w-btn" href="login.html">Login</a></li>
                     </ul>
                 </div>
@@ -65,11 +59,11 @@
 
                     <div class="col-lg-6 mb-5">
                         <div class="form-wrapper">
-                            <div class="" data-aos="fade-down">
+                            <div class="" data-aos="zoom-in">
                                 <h2>Welcome to Shathee</h2>
                                 <h5>Your partner in preventive healthcare</h5>
                             </div>
-                            <form action="" class="mt-5" data-aos="fade-right">
+                            <form action="" class="mt-5" data-aos="zoom-in">
 
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="First Name">
@@ -82,7 +76,8 @@
                                 <div class="form-group input-group">
                                     <div class="input-group-prepend ">
                                         <div class="input-group-text d-flex align-items-center">
-                                            <img src="assets/img/bng.PNG" alt=""> <span>+880</span></div>
+                                            <img src="assets/img/bng.PNG" alt=""> <span>+880</span>
+                                        </div>
                                     </div>
                                     <input type="text" class="form-control" id="inlineFormInputGroup"
                                         placeholder="Mobile Number">
@@ -100,6 +95,7 @@
 
                                 <div class="form-group input-pass-wrap">
                                     <input type="password" class="form-control" placeholder="Repeat Password">
+                                    <!-- hide show btn should be next element of input type passowrd Otherwise it will not work -->
                                     <button class="pass-hide-show"><i class="fa-regular fa-eye-slash"></i></button>
                                 </div>
 
@@ -113,17 +109,24 @@
 
                                     <div class="form-text">
                                         <label for="r-privacy">
-                                            <p>I hereby agree to Shathee’s <a class="ml-2" href="">Terms & Conditions</a></p>
+                                            <p>I hereby agree to Shathee’s <a class="ml-2" href="">Terms &
+                                                    Conditions</a></p>
                                         </label>
                                     </div>
                                 </div>
 
-                                <div class="form-btn">
+                                <!-- <div class="form-btn">
                                     <button class="w-btn w-100">SIGN UP</button>
+                                </div> -->
+
+                                <div class="form-btn">
+                                    <a href="Patient-Registration.html" class="w-btn w-100">
+                                        SIGN UP
+                                    </a>
                                 </div>
 
                                 <div class="form-text text-center">
-                                    <label >
+                                    <label>
                                         <p>Already a member? <a class="ml-2" href="login.html">Login</a></p>
                                     </label>
                                 </div>
@@ -149,7 +152,7 @@
                         </div>
                     </div>
 
-                    <div class=" col-lg-5 ms-auto px-4 form-right-content" data-aos="fade-up-left">
+                    <div class=" col-lg-5 ms-auto px-4 form-right-content" data-aos="zoom-in">
                         <img class="circle-shade" src="assets/img/circle-shade.png" alt="">
 
 
@@ -157,11 +160,13 @@
                         <img class="sign-up" src="assets/img/singup-right.png" width="100%" alt="">
 
                         <div class="form-right-text">
-                            <span class="label"><img src="assets/img/thumbs.png" class="me-2" alt=""> Enables Proactive Care </span>
-                            <p>Proactive care empowers me to make a real difference in my patients' lives, helping them avoid complications and enjoy a better quality of life.</p>
+                            <span class="label"><img src="assets/img/thumbs.png" class="me-2" alt=""> Enables Proactive
+                                Care </span>
+                            <p>Proactive care empowers me to make a real difference in my patients' lives, helping them
+                                avoid complications and enjoy a better quality of life.</p>
                         </div>
-                        
-                        
+
+
                     </div>
 
                 </div>
@@ -179,9 +184,10 @@
             <div class="container ft-con">
                 <div class="row px-3 px-sm-0">
 
-                    <div class=" col-sm-6  col-lg-4 mb-5  ft-about" data-aos="fade-right">
+                    <div class=" col-sm-6  col-lg-4 mb-5  ft-about" data-aos="zoom-in">
                         <img src="assets/img/logo-w.png" width="80%" alt="">
-                        <p>Evidence based high quality preventive care accessible to everyone on Earth, starting with Bangladesh.</p>
+                        <p>Evidence based high quality preventive care accessible to everyone on Earth, starting with
+                            Bangladesh.</p>
                         <ul class="d-flex ps-0">
                             <li>
                                 <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
@@ -193,7 +199,7 @@
                         </ul>
                     </div>
 
-                    <div class=" col-sm-6  col-lg-3 mb-5  ps-sm-5 ft-detail" data-aos="fade-down">
+                    <div class=" col-sm-6  col-lg-3 mb-5  ps-sm-5 ft-detail" data-aos="zoom-in">
                         <h4>Get in touch</h4>
                         <p>14/05 City, <br>
                             Dhaka, Bangladesh<br>
@@ -201,7 +207,7 @@
                             Phone: 00 (123) 456 78 90<br></p>
                     </div>
 
-                    <div class=" col-sm-6  col-lg-2 mb-5  ft-detail" data-aos="fade-up">
+                    <div class=" col-sm-6  col-lg-2 mb-5  ft-detail" data-aos="zoom-in">
                         <h4>Quick Links</h4>
                         <ul class="navbar-nav">
                             <li><a href="about.html">About Us</a></li>
@@ -211,18 +217,18 @@
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>
-                    
 
-                    <div class=" col-sm-6  col-lg-3 mb-5  align-self-center ft-sub p-sm-0" data-aos="fade-left">
-                       <form>
-                        <div class="form-group position-relative">
-                            <i class="fa fa-envelope"></i>
-                            <input type="text" class="form-control" placeholder="Enter your email address here">
-                        </div>
-                        <button type="submit" class=" w-100">SUBSCRIBE</button>
-                       </form>
+
+                    <div class=" col-sm-6  col-lg-3 mb-5  align-self-center ft-sub p-sm-0" data-aos="zoom-in">
+                        <form>
+                            <div class="form-group position-relative">
+                                <i class="fa fa-envelope"></i>
+                                <input type="text" class="form-control" placeholder="Enter your email address here">
+                            </div>
+                            <button type="submit" id="newsLaterBtn" class=" w-100">SUBSCRIBE</button>
+                        </form>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -239,19 +245,17 @@
 
 
 
-    <!-- JQUERY  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- OWL CAROUSEL -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- JQUERY JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
-
-    <!--AOS ANIMATION JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
 
     <script>
+
         AOS.init({
 
 
@@ -262,6 +266,32 @@
 
         });
 
+
+        let newsLaterBtn = document.querySelector("#newsLaterBtn");
+        newsLaterBtn.addEventListener("click", (e) => {
+            e.preventDefault()
+        })
+
+        // hide show
+        let passHideShowBtn = document.querySelectorAll(".pass-hide-show");
+
+        passHideShowBtn.forEach(btn => {
+            let isShow = false;
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+                if (!isShow) {
+                    btn.innerHTML = `<i class="fa-regular fa-eye"></i>`;
+                    btn.previousElementSibling.type = "text";
+                    isShow = true;
+
+                } else {
+                    btn.innerHTML = `<i class="fa-regular fa-eye-slash"></i>`;
+                    btn.previousElementSibling.type = "password";
+                    isShow = false;
+
+                }
+            })
+        })
 
 
     </script>

@@ -1,0 +1,243 @@
+body {
+    background-color: #F4F5FA;
+    padding-top: 10rem;
+    color: #2b3353;
+}
+
+.patient-register {
+    background-color: #fff;
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .07);
+    padding: 21px;
+}
+.form-wrapper p,
+.patient-register p{
+    font-size: 1.6rem ;
+
+}
+
+p.or{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0 5px;
+}
+.patient-register .patient-reg-header {
+    min-height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.patient-reg-header h5{
+    font-size: 1.8rem;
+    font-weight: 600;
+    opacity: .8;
+}
+
+.form-wrap label{
+    font-size: 1.6rem;
+    color: #2b335e;
+
+}
+
+.label-heading label{
+    font-size: 1.6rem;
+    color: #2b3353;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+select,
+input:not(input[type="radio"]){
+    height: 40px;
+    color: #3b4781;
+    font-size: 1.6rem !important;
+    /* margin: 10px 0; */
+}
+
+
+select option{
+    font-size: 1.6rem;
+   
+}
+
+
+
+
+.circle-radio input[type="radio"] {
+    display: none;
+}
+
+.circle-radio label {
+    position: relative;
+    padding-left: 35px;
+    margin: 3px 0;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.circle-radio label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid  #ced4da;
+}
+
+
+
+.circle-radio input:checked+label:before {
+    content: "\2713";
+    font-size: 14px;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #113bb3;
+    border: 2px solid #113bb3;
+
+}
+
+.circle-radio label:hover::before {
+    border: 2px solid #113bb3;
+}
+
+
+.goal-check label {
+    position: relative;
+    padding-left: 35px;
+    margin: 3px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.goal-check input {
+    display: none;
+}
+
+.goal-check label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #ced4da;
+}
+
+.goal-check input:checked+label::before {
+    content: "\2713";
+    font-size: 14px;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #113bb3;
+    border: 2px solid #113bb3;
+
+}
+
+.goal-check label:hover::before {
+    border: 2px solid #113bb3;
+}
+
+
+
+
+/* AAPONTMENT */
+.appoint-time input {
+    display: none;
+}
+
+.appoint-time label {
+    position: relative;
+    color: #fff;
+    background-color: #2489C5;
+    display: block;
+    padding-left: 20px;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 30px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.appoint-time label:hover {
+    background-color: #3DA0DB;
+}
+
+.appoint-time label p {
+    margin: 0;
+}
+
+.appoint-time label::before {
+    content: "\00D7";
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.appoint-time input:checked+label::before {
+    content: "\2713";
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.ft{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    padding: 30px 0;
+}
+.m-btn{
+    all: unset;
+    padding: 8px 14px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.m-btn.mbtn-danger{
+    background-color: #FF9149;
+}
+.m-btn.mbtn-danger span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.m-btn.mbtn-sucess{
+    background-color: #666EE8;
+}
+.m-btn.mbtn-sucess span{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.m-btn:hover{
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 767px) {
+    p.or{
+        text-align: left;
+        margin: 0;
+    }
+}
